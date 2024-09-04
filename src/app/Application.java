@@ -1,26 +1,15 @@
 package app;
 
+import java.util.ArrayList;
+
+import models.Personne;
+
 public class Application {
 
     public static void main(String[] args) {
-
-        //  --------------------------------------------------        
-        //           __     _____ _____ ____  _____ 
-        //           \ \   / / _ \_   _|  _ \| ____|
-        //            \ \ / / | | || | | |_) |  _|  
-        //             \ V /| |_| || | |  _ <| |___ 
-        //              \_/__\___/_|_|_|_| \_\_____|
-        //                / ___/ _ \|  _ \| ____|   
-        //               | |  | | | | | | |  _|     
-        //               | |__| |_| | |_| | |___    
-        //                \____\___/|____/|_____|   
-        //                    |_ _/ ___|_ _|        
-        //                     | | |    | |         
-        //                     | | |___ | |         
-        //                    |___\____|___|        
-        //                                                  
-        //  ---------------------------------------------------
-
+        ArrayList<Personne> personne = new ArrayList<>();
+        personne.add(new Personne("Hertig", "Axelle", "chemin du signal", "Esmonts", 15));
+   
     }
 
 }
